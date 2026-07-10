@@ -4,7 +4,7 @@ st.title("Proyecto módulo 1 Fundamentals")
 st.sidebar.title("Parámetros")
 
 st.image("python.png")
-st.sidebar.image("DMC.png")
+st.sidebar.image("dmc.png")
 
 valor_inicial = st.number_input(
     "Ingrese el valor inicial",
