@@ -3,7 +3,7 @@ import streamlit as st
 st.title("Proyecto módulo 1 Fundamentals")
 st.sidebar.title("Parámetros")
 
-st.image("Python.png")
+st.image("python.png")
 
 valor_inicial = st.number_input(
     "Ingrese el valor inicial",
