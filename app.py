@@ -6,6 +6,8 @@ st.sidebar.title("Parámetros")
 st.image("python.png")
 st.sidebar.image("dmc.png")
 
+modulo=st.sidebar.selectbox("elija un módulo",["Modulo Listas","Modulo Array","Modulo Funciones"])
+
 valor_inicial = st.number_input(
     "Ingrese el valor inicial",
     value=0
